@@ -1,0 +1,5 @@
+user: ieti-lab9
+pass: ieti-lab9
+
+
+mongodb+srv://ieti-lab9:ieti-lab9@ieti.qijge.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
