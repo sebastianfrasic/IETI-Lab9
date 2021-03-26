@@ -57,7 +57,7 @@ public class Application implements CommandLineRunner {
         System.out.println("Paginated search of products by criteria:");
         System.out.println("-------------------------------");
         
-        productRepository.findByDescriptionContaining("plus", PageRequest.of(0, 2)).stream()
+        productRepository.findByDescriptionContaining("Samsung", PageRequest.of(0, 4)).stream()
         	.forEach(System.out::println);
    
         System.out.println();
